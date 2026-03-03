@@ -4,7 +4,7 @@ const projectList = [{
     title: "MidTown Restaurant",
     description: "MidTown Restaurant is a modern web-based restaurant management and showcase platform.",
     techStack: ["HTML", "CSS", "JavaScript","MySql", "Ajax", "React", "Bootstrap"],
-    image: "assets/projects/project1.png",
+    image: "assets/projects/Project1.png",
     liveLink: "#",
     githubLink: "#",
 },
