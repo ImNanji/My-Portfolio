@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | HTML, CSS, JavaScript</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="brand-info">
+                <img src="assets/logo.jpeg" alt=" Logo" loading="lazy">
+                <h2>My Portfolio</h2>
+            </div>
+
+            <div class="menu-area">
+                <input type="checkbox" name="" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="ph ph-list"></i>
+                </label>
+
+                <label for="menu-toggle" id="overlay"></label>
+                <nav>
+                    <a href="#" style="--i:1" data-tab="home" class="navlink active">Home</a>
+                    <a href="#" style="--i:1" data-tab="services" class="navlink active">Services</a>
+                    <a href="#" style="--i:2" data-tab="about" class="navlink ">About</a>
+                    <a href="#" style="--i:3" data-tab="projects" class="navlink ">Projects</a>
+                    <a href="#" style="--i:4" class="navlink" data-tab="contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="content active" id="home">
+
+            <div class="details">
+                <h2><span>
+                        Prashant
+                    </span>RB.Stha
+                </h2>
+                <h3>I'm <span id="typing-span">
+
+                    </span></h3>
+                <p>I am an aspiring software developer passionate about creating modern applications with clean design
+                    and efficient functionality. I enjoy learning new technologies and turning ideas into real projects.
+                    Alongside software development, I have a basic understanding of 3D modeling using Blender, including
+                    creating simple models, applying materials, lighting, and rendering scenes.</p>
+                <div class="buttom">
+                    <button class="btn">Download CV</button>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/etsmeprashant/?viewas=100000686899395">
+                            <i class="ph ph-meta-logo"></i>
+                        </a>
+                        <a href="https://www.instagram.com/etsmeprashant_ig/">
+                            <i class="ph ph-instagram-logo"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@etsmeprashant?_r=1&_t=ZS-94KWFFq8Q3G">
+                            <i class="ph ph-tiktok-logo"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prashant-bicte-490a24343?">
+                            <i class="ph ph-linkedin-logo"></i>
+                        </a>
+                        <a href="https://github.com/ImNanji">
+                            <i class="ph ph-github-logo"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-container">
+                <img src="assets/Profile.jpeg" alt="Profile Image" title="Profile Image" loading="lazy">
+            </div>
+        </section>
+        <section id="services" class="content">
+            <h2>My <span> Services</span></h2>
+            <div class="service-list">
+                <!-- <div class="box">
+                    <div class="head-icons">
+                        <i class="ph ph-code"></i>
+                        <span><i class="ph ph-arrow-down"></i></span>
+                    </div>
+
+
+                    <h3>Websites Development</h3>
+                    <span class="spacer"></span>
+
+                    <p>I build responsive and modern
+                        websites using the latest web technologies.</p>
+                </div> -->
+
+                <!-- <div class="box">
+                    <div class="head-icons">
+                        <i class="ph ph-code"></i>
+                        <span><i class="ph ph-arrow-down"></i></span>
+                    </div>
+
+
+                    <h3>Websites Development</h3>
+                    <span class="spacer"></span>
+
+                    <p>I build responsive and modern
+                        websites using the latest web technologies.</p>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <div class="sidebar">
+                <h3>Why Hire Me?</h3>
+                <p>I am a passionate and dedicated developer with a strong foundation in both frontend and backend
+                    technologies. My skills in problem-solving, attention to detail, and commitment to delivering
+                    high-quality work make me a valuable addition to any team.
+                </p>
+                <div class="tabs">
+                    <span data-section="experience" class="tab">Experiences</span>
+                    <span data-section="skills" class="tab">Skills</span>
+                    <span data-section="education" class="tab">Education</span>
+                    <span data-section="about-me" class="tab">About Me</span>
+
+
+                </div>
+
+
+            </div>
+
+            <aside id="experience" class="tab-content active">
+                <h2>My <span>Experience</span></h2>
+                <p>I have experience in building responsive websites and web applications using modern technologies like
+                    HTML, CSS, JavaScript, and frameworks like React and Node.js.</p>
+                <div class="experience-list">
+                    <!-- <div class="experience-box">
+                        <h4>2023-2024</h4>
+                        <h3>Frontend Developer</h3>
+                        <div class="company-name"><span></span>
+                            <p>Own Company</p>
+                        </div>
+                    </div> -->
+
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit, reprehenderit magni
+                        obcaecati deserunt enim?</p> -->
+                </div>
+
+            </aside>
+
+            <aside id="education" class="tab-content">
+                <h2>My <span>Education</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, ad!</p>
+                <div class="education-list">
+                </div>
+            </aside>
+
+            <aside id="skills" class="tab-content">
+                <h2>My <span>Skills</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dignissimos?</p>
+                <div class="skill-list">
+
+                </div>
+            </aside>
+
+            <aside id="about-me" class="tab-content">
+                <h2>My <span>About Me</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, repellat.</p>
+                <div class="my-info">
+
+                </div>
+
+            </aside>
+        </section>
+
+        <section id="projects" class="content">
+
+            </h2>
+            <div class="projects">
+            </div>
+
+        </section>
+
+        <section id="contact" class="content">
+            <div class="contact-info">
+                <h2>Let's Work <span>together</span> </h2>
+                <p>I am a creative and passionate digital content creator and web developer.
+                    I specialize in building modern responsive websites, video editing, and 3D object modeling.
+
+                    Along with web development, I also create high-quality video editing projects,
+                    motion content, and visual storytelling designs. I enjoy transforming ideas into
+                    engaging digital experiences through technology and creativity.
+
+                    If you need website development, video editing, or 3D content creation,
+                    I am ready to help bring your project to life with quality and dedication.</p>
+                <div class="contact-media">
+                </div>
+            </div>
+
+
+            <form action="#" id="contact-form">
+                <fieldset>
+                    <legend><span>Contact</span>
+                        Me!</legend>
+
+                    <div class="fields">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="Write Your Name" required>
+
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Your Phone number" required>
+
+                        </div>
+
+                        <div>
+                            <label for="message" required>Message:</label>
+                            <textarea name="message" id="message" cols="30" rows="5"
+                                placeholder="Write Something..."></textarea>
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn" id="send-msg">Send Message</button>
+
+                </fieldset>
+            </form>
+
+
+    </div>
+    </section>
+    </div>
+
+    <script src="scripts/script.js" type="module"></script>
+    <script src="scripts/about.js" type="module"></script>
+    <script src="scripts/projects.js" type="module"></script>
+    <script src="scripts/contact.js" type="module"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+
+        (function () {
+            emailjs.init({
+                publicKey: "eyXjGaqPtoLGr3uze",
+            });
+        })();
+    </script>
+</body>
+
+</html>
