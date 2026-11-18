@@ -83,7 +83,7 @@ aboutTabs.forEach((tab) => {
             },
             {
                 id: 3,
-                date: "2078 BS - Present",
+                date: "2078 BS - 2082 BS",
                 degree: "Bachelor In Information Communication Technology",
                 institution: "Tribhuvan University",
                 details: "Currently pursuing a Bachelor’s degree, focusing on developing strong technical knowledge and practical skills. Engaged in academic projects, teamwork, and continuous learning to build a solid professional foundation."
